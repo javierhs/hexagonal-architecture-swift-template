@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D678ACCF2AC2BDDE007D82DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */; };
+		D678ACD12AC2BDDE007D82DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */; };
+		D678ACD32AC2BDDE007D82DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACD22AC2BDDE007D82DB /* ViewController.swift */; };
+		D678ACD62AC2BDDE007D82DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678ACD42AC2BDDE007D82DB /* Main.storyboard */; };
+		D678ACD82AC2BDE1007D82DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D678ACD72AC2BDE1007D82DB /* Assets.xcassets */; };
+		D678ACDB2AC2BDE1007D82DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678ACD92AC2BDE1007D82DB /* LaunchScreen.storyboard */; };
+		D678ACE72AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACE62AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift */; };
+		D678ACE92AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACE82AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift */; };
 		D6D340392AC24EC200A87A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340382AC24EC200A87A73 /* AppDelegate.swift */; };
 		D6D3403B2AC24EC200A87A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */; };
 		D6D3403D2AC24EC200A87A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403C2AC24EC200A87A73 /* ViewController.swift */; };
@@ -25,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D678ACEA2AC2BDFE007D82DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D678ACCB2AC2BDDE007D82DB;
+			remoteInfo = "BackOffice-ipadOS";
+		};
 		D6D3404C2AC24EC400A87A73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
@@ -49,6 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-ipadOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D678ACD22AC2BDDE007D82DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D678ACD52AC2BDDE007D82DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D678ACD72AC2BDE1007D82DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D678ACDA2AC2BDE1007D82DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D678ACDC2AC2BDE1007D82DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-ipadOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678ACE62AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_ipadOSUITests.swift; sourceTree = "<group>"; };
+		D678ACE82AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_ipadOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6D340352AC24EC200A87A73 /* BackOffice-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340382AC24EC200A87A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +100,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D678ACC92AC2BDDE007D82DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678ACE12AC2BDFE007D82DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D340322AC24EC200A87A73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,6 +169,8 @@
 				D6D340552AC24EC400A87A73 /* BackOffice-iOS-UI-Tests.xctest */,
 				D6D340A52AC25DD500A87A73 /* BackOffice-macOS.app */,
 				D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */,
+				D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */,
+				D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +397,13 @@
 		D6D340822AC2510200A87A73 /* ipadOS */ = {
 			isa = PBXGroup;
 			children = (
+				D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */,
+				D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */,
+				D678ACD22AC2BDDE007D82DB /* ViewController.swift */,
+				D678ACD42AC2BDDE007D82DB /* Main.storyboard */,
+				D678ACD72AC2BDE1007D82DB /* Assets.xcassets */,
+				D678ACD92AC2BDE1007D82DB /* LaunchScreen.storyboard */,
+				D678ACDC2AC2BDE1007D82DB /* Info.plist */,
 			);
 			path = ipadOS;
 			sourceTree = "<group>";
@@ -425,6 +474,8 @@
 		D6D3408A2AC2513E00A87A73 /* ipadOS */ = {
 			isa = PBXGroup;
 			children = (
+				D678ACE62AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift */,
+				D678ACE82AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift */,
 			);
 			path = ipadOS;
 			sourceTree = "<group>";
@@ -543,6 +594,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678ACDF2AC2BDE1007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOS" */;
+			buildPhases = (
+				D678ACC82AC2BDDE007D82DB /* Sources */,
+				D678ACC92AC2BDDE007D82DB /* Frameworks */,
+				D678ACCA2AC2BDDE007D82DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackOffice-ipadOS";
+			productName = "BackOffice-ipadOS";
+			productReference = D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D678ACE32AC2BDFE007D82DB /* BackOffice-ipadOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678ACEC2AC2BDFF007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOSUITests" */;
+			buildPhases = (
+				D678ACE02AC2BDFE007D82DB /* Sources */,
+				D678ACE12AC2BDFE007D82DB /* Frameworks */,
+				D678ACE22AC2BDFE007D82DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D678ACEB2AC2BDFE007D82DB /* PBXTargetDependency */,
+			);
+			name = "BackOffice-ipadOSUITests";
+			productName = "BackOffice-ipadOSUITests";
+			productReference = D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D6D340342AC24EC200A87A73 /* BackOffice-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6D3405F2AC24EC400A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-iOS" */;
@@ -641,6 +727,13 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					D678ACCB2AC2BDDE007D82DB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D678ACE32AC2BDFE007D82DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D678ACCB2AC2BDDE007D82DB;
+					};
 					D6D340342AC24EC200A87A73 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -679,11 +772,30 @@
 				D6D3404A2AC24EC400A87A73 /* HexagonalArchitectureTemplateTests */,
 				D6D340A42AC25DD500A87A73 /* BackOffice-macOS */,
 				D6D340B72AC25DE600A87A73 /* BackOffice-macOSUITests */,
+				D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */,
+				D678ACE32AC2BDFE007D82DB /* BackOffice-ipadOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D678ACCA2AC2BDDE007D82DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678ACDB2AC2BDE1007D82DB /* LaunchScreen.storyboard in Resources */,
+				D678ACD82AC2BDE1007D82DB /* Assets.xcassets in Resources */,
+				D678ACD62AC2BDDE007D82DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678ACE22AC2BDFE007D82DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D340332AC24EC200A87A73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -727,6 +839,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D678ACC82AC2BDDE007D82DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678ACD32AC2BDDE007D82DB /* ViewController.swift in Sources */,
+				D678ACCF2AC2BDDE007D82DB /* AppDelegate.swift in Sources */,
+				D678ACD12AC2BDDE007D82DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678ACE02AC2BDFE007D82DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678ACE72AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift in Sources */,
+				D678ACE92AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D340312AC24EC200A87A73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -775,6 +906,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D678ACEB2AC2BDFE007D82DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */;
+			targetProxy = D678ACEA2AC2BDFE007D82DB /* PBXContainerItemProxy */;
+		};
 		D6D3404D2AC24EC400A87A73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6D340342AC24EC200A87A73 /* BackOffice-iOS */;
@@ -793,6 +929,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D678ACD42AC2BDDE007D82DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D678ACD52AC2BDDE007D82DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D678ACD92AC2BDE1007D82DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D678ACDA2AC2BDE1007D82DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D6D3403E2AC24EC200A87A73 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -820,6 +972,108 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D678ACDD2AC2BDE1007D82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = apps/main/Backoffice/frontend/ipadOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-ipadOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D678ACDE2AC2BDE1007D82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = apps/main/Backoffice/frontend/ipadOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-ipadOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D678ACED2AC2BDFF007D82DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-ipadOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = "BackOffice-ipadOS";
+			};
+			name = Debug;
+		};
+		D678ACEE2AC2BDFF007D82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-ipadOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = "BackOffice-ipadOS";
+			};
+			name = Release;
+		};
 		D6D3405D2AC24EC400A87A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1175,6 +1429,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D678ACDF2AC2BDE1007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678ACDD2AC2BDE1007D82DB /* Debug */,
+				D678ACDE2AC2BDE1007D82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D678ACEC2AC2BDFF007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678ACED2AC2BDFF007D82DB /* Debug */,
+				D678ACEE2AC2BDFF007D82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6D340302AC24EC200A87A73 /* Build configuration list for PBXProject "HexagonalArchitectureTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
