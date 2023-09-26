@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D659B2702AC2C02E0082E34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B26F2AC2C02E0082E34B /* AppDelegate.swift */; };
+		D659B2722AC2C02E0082E34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B2712AC2C02E0082E34B /* ViewController.swift */; };
+		D659B2752AC2C02E0082E34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659B2732AC2C02E0082E34B /* Main.storyboard */; };
+		D659B2772AC2C02F0082E34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D659B2762AC2C02F0082E34B /* Assets.xcassets */; };
+		D659B27A2AC2C02F0082E34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659B2782AC2C02F0082E34B /* LaunchScreen.storyboard */; };
+		D659B2852AC2C03B0082E34B /* BackOffice_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B2842AC2C03B0082E34B /* BackOffice_tvOSUITests.swift */; };
+		D659B2872AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B2862AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift */; };
 		D678ACCF2AC2BDDE007D82DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */; };
 		D678ACD12AC2BDDE007D82DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */; };
 		D678ACD32AC2BDDE007D82DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACD22AC2BDDE007D82DB /* ViewController.swift */; };
@@ -33,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D659B2882AC2C03B0082E34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D659B26C2AC2C02E0082E34B;
+			remoteInfo = "BackOffice-tvOS";
+		};
 		D678ACEA2AC2BDFE007D82DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
@@ -64,6 +78,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D659B26D2AC2C02E0082E34B /* BackOffice-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D659B26F2AC2C02E0082E34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D659B2712AC2C02E0082E34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D659B2742AC2C02E0082E34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D659B2762AC2C02F0082E34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D659B2792AC2C02F0082E34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D659B2842AC2C03B0082E34B /* BackOffice_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_tvOSUITests.swift; sourceTree = "<group>"; };
+		D659B2862AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_tvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-ipadOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +123,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D659B26A2AC2C02E0082E34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D659B27F2AC2C03B0082E34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D678ACC92AC2BDDE007D82DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +208,8 @@
 				D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */,
 				D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */,
 				D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */,
+				D659B26D2AC2C02E0082E34B /* BackOffice-tvOS.app */,
+				D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -411,6 +450,11 @@
 		D6D340832AC2510700A87A73 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				D659B26F2AC2C02E0082E34B /* AppDelegate.swift */,
+				D659B2712AC2C02E0082E34B /* ViewController.swift */,
+				D659B2732AC2C02E0082E34B /* Main.storyboard */,
+				D659B2762AC2C02F0082E34B /* Assets.xcassets */,
+				D659B2782AC2C02F0082E34B /* LaunchScreen.storyboard */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
@@ -483,6 +527,8 @@
 		D6D3408B2AC2514400A87A73 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				D659B2842AC2C03B0082E34B /* BackOffice_tvOSUITests.swift */,
+				D659B2862AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
@@ -594,6 +640,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D659B26C2AC2C02E0082E34B /* BackOffice-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D659B27D2AC2C02F0082E34B /* Build configuration list for PBXNativeTarget "BackOffice-tvOS" */;
+			buildPhases = (
+				D659B2692AC2C02E0082E34B /* Sources */,
+				D659B26A2AC2C02E0082E34B /* Frameworks */,
+				D659B26B2AC2C02E0082E34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackOffice-tvOS";
+			productName = "BackOffice-tvOS";
+			productReference = D659B26D2AC2C02E0082E34B /* BackOffice-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D659B2812AC2C03B0082E34B /* BackOffice-tvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D659B28A2AC2C03B0082E34B /* Build configuration list for PBXNativeTarget "BackOffice-tvOSUITests" */;
+			buildPhases = (
+				D659B27E2AC2C03B0082E34B /* Sources */,
+				D659B27F2AC2C03B0082E34B /* Frameworks */,
+				D659B2802AC2C03B0082E34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D659B2892AC2C03B0082E34B /* PBXTargetDependency */,
+			);
+			name = "BackOffice-tvOSUITests";
+			productName = "BackOffice-tvOSUITests";
+			productReference = D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D678ACDF2AC2BDE1007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOS" */;
@@ -727,6 +808,13 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					D659B26C2AC2C02E0082E34B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D659B2812AC2C03B0082E34B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D659B26C2AC2C02E0082E34B;
+					};
 					D678ACCB2AC2BDDE007D82DB = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -774,11 +862,30 @@
 				D6D340B72AC25DE600A87A73 /* BackOffice-macOSUITests */,
 				D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */,
 				D678ACE32AC2BDFE007D82DB /* BackOffice-ipadOSUITests */,
+				D659B26C2AC2C02E0082E34B /* BackOffice-tvOS */,
+				D659B2812AC2C03B0082E34B /* BackOffice-tvOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D659B26B2AC2C02E0082E34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D659B27A2AC2C02F0082E34B /* LaunchScreen.storyboard in Resources */,
+				D659B2772AC2C02F0082E34B /* Assets.xcassets in Resources */,
+				D659B2752AC2C02E0082E34B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D659B2802AC2C03B0082E34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D678ACCA2AC2BDDE007D82DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,6 +946,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D659B2692AC2C02E0082E34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D659B2722AC2C02E0082E34B /* ViewController.swift in Sources */,
+				D659B2702AC2C02E0082E34B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D659B27E2AC2C03B0082E34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D659B2852AC2C03B0082E34B /* BackOffice_tvOSUITests.swift in Sources */,
+				D659B2872AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D678ACC82AC2BDDE007D82DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -906,6 +1031,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D659B2892AC2C03B0082E34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D659B26C2AC2C02E0082E34B /* BackOffice-tvOS */;
+			targetProxy = D659B2882AC2C03B0082E34B /* PBXContainerItemProxy */;
+		};
 		D678ACEB2AC2BDFE007D82DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */;
@@ -929,6 +1059,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D659B2732AC2C02E0082E34B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D659B2742AC2C02E0082E34B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D659B2782AC2C02F0082E34B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D659B2792AC2C02F0082E34B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D678ACD42AC2BDDE007D82DB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -972,6 +1118,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D659B27B2AC2C02F0082E34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		D659B27C2AC2C02F0082E34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		D659B28B2AC2C03B0082E34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "BackOffice-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		D659B28C2AC2C03B0082E34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "BackOffice-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
 		D678ACDD2AC2BDE1007D82DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1429,6 +1667,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D659B27D2AC2C02F0082E34B /* Build configuration list for PBXNativeTarget "BackOffice-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D659B27B2AC2C02F0082E34B /* Debug */,
+				D659B27C2AC2C02F0082E34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D659B28A2AC2C03B0082E34B /* Build configuration list for PBXNativeTarget "BackOffice-tvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D659B28B2AC2C03B0082E34B /* Debug */,
+				D659B28C2AC2C03B0082E34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D678ACDF2AC2BDE1007D82DB /* Build configuration list for PBXNativeTarget "BackOffice-ipadOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

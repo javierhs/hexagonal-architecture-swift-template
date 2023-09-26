@@ -34,6 +34,16 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>BackOffice-tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>BackOffice-tvOSUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>HexagonalArchitectureTemplate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -44,6 +54,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D659B26C2AC2C02E0082E34B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D659B2812AC2C03B0082E34B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D678ACCB2AC2BDDE007D82DB</key>
 		<dict>
 			<key>primary</key>
