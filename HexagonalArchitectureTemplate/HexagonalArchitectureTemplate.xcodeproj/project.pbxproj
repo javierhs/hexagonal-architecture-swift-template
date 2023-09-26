@@ -22,6 +22,12 @@
 		D678ACDB2AC2BDE1007D82DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678ACD92AC2BDE1007D82DB /* LaunchScreen.storyboard */; };
 		D678ACE72AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACE62AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift */; };
 		D678ACE92AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678ACE82AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift */; };
+		D6BBD8822AC2C150007800D8 /* BackOffice_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBD8812AC2C150007800D8 /* BackOffice_watchOSApp.swift */; };
+		D6BBD8842AC2C150007800D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBD8832AC2C150007800D8 /* ContentView.swift */; };
+		D6BBD8862AC2C152007800D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BBD8852AC2C152007800D8 /* Assets.xcassets */; };
+		D6BBD8892AC2C152007800D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BBD8882AC2C152007800D8 /* Preview Assets.xcassets */; };
+		D6BBD8942AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBD8932AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift */; };
+		D6BBD8962AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBD8952AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift */; };
 		D6D340392AC24EC200A87A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340382AC24EC200A87A73 /* AppDelegate.swift */; };
 		D6D3403B2AC24EC200A87A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */; };
 		D6D3403D2AC24EC200A87A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403C2AC24EC200A87A73 /* ViewController.swift */; };
@@ -53,6 +59,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D678ACCB2AC2BDDE007D82DB;
 			remoteInfo = "BackOffice-ipadOS";
+		};
+		D6BBD8972AC2C1D3007800D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BBD87E2AC2C150007800D8;
+			remoteInfo = "BackOffice-watchOS Watch App";
 		};
 		D6D3404C2AC24EC400A87A73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -98,6 +111,14 @@
 		D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-ipadOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D678ACE62AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_ipadOSUITests.swift; sourceTree = "<group>"; };
 		D678ACE82AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_ipadOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6BBD87F2AC2C150007800D8 /* BackOffice-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BBD8812AC2C150007800D8 /* BackOffice_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_watchOSApp.swift; sourceTree = "<group>"; };
+		D6BBD8832AC2C150007800D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6BBD8852AC2C152007800D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6BBD8882AC2C152007800D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6BBD8912AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BBD8932AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_watchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		D6BBD8952AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6D340352AC24EC200A87A73 /* BackOffice-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340382AC24EC200A87A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +172,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6BBD87C2AC2C150007800D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BBD88E2AC2C1D3007800D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D340322AC24EC200A87A73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +224,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6BBD8872AC2C152007800D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6BBD8882AC2C152007800D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D6D3402C2AC24EC200A87A73 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +253,8 @@
 				D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */,
 				D659B26D2AC2C02E0082E34B /* BackOffice-tvOS.app */,
 				D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */,
+				D6BBD87F2AC2C150007800D8 /* BackOffice-watchOS Watch App.app */,
+				D6BBD8912AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -474,6 +519,10 @@
 		D6D340852AC2511400A87A73 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6BBD8812AC2C150007800D8 /* BackOffice_watchOSApp.swift */,
+				D6BBD8832AC2C150007800D8 /* ContentView.swift */,
+				D6BBD8852AC2C152007800D8 /* Assets.xcassets */,
+				D6BBD8872AC2C152007800D8 /* Preview Content */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
@@ -545,6 +594,8 @@
 		D6D3408D2AC2515000A87A73 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6BBD8932AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift */,
+				D6BBD8952AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
@@ -710,6 +761,41 @@
 			productReference = D678ACE42AC2BDFE007D82DB /* BackOffice-ipadOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D6BBD87E2AC2C150007800D8 /* BackOffice-watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BBD88C2AC2C152007800D8 /* Build configuration list for PBXNativeTarget "BackOffice-watchOS Watch App" */;
+			buildPhases = (
+				D6BBD87B2AC2C150007800D8 /* Sources */,
+				D6BBD87C2AC2C150007800D8 /* Frameworks */,
+				D6BBD87D2AC2C150007800D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackOffice-watchOS Watch App";
+			productName = "BackOffice-watchOS Watch App";
+			productReference = D6BBD87F2AC2C150007800D8 /* BackOffice-watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6BBD8902AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BBD8992AC2C1D3007800D8 /* Build configuration list for PBXNativeTarget "BackOffice-watchOS Watch AppUITests" */;
+			buildPhases = (
+				D6BBD88D2AC2C1D3007800D8 /* Sources */,
+				D6BBD88E2AC2C1D3007800D8 /* Frameworks */,
+				D6BBD88F2AC2C1D3007800D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BBD8982AC2C1D3007800D8 /* PBXTargetDependency */,
+			);
+			name = "BackOffice-watchOS Watch AppUITests";
+			productName = "BackOffice-watchOS Watch AppUITests";
+			productReference = D6BBD8912AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D6D340342AC24EC200A87A73 /* BackOffice-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6D3405F2AC24EC400A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-iOS" */;
@@ -822,6 +908,13 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = D678ACCB2AC2BDDE007D82DB;
 					};
+					D6BBD87E2AC2C150007800D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D6BBD8902AC2C1D3007800D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D6BBD87E2AC2C150007800D8;
+					};
 					D6D340342AC24EC200A87A73 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -864,6 +957,8 @@
 				D678ACE32AC2BDFE007D82DB /* BackOffice-ipadOSUITests */,
 				D659B26C2AC2C02E0082E34B /* BackOffice-tvOS */,
 				D659B2812AC2C03B0082E34B /* BackOffice-tvOSUITests */,
+				D6BBD87E2AC2C150007800D8 /* BackOffice-watchOS Watch App */,
+				D6BBD8902AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -897,6 +992,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D678ACE22AC2BDFE007D82DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BBD87D2AC2C150007800D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BBD8892AC2C152007800D8 /* Preview Assets.xcassets in Resources */,
+				D6BBD8862AC2C152007800D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BBD88F2AC2C1D3007800D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -983,6 +1094,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6BBD87B2AC2C150007800D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BBD8842AC2C150007800D8 /* ContentView.swift in Sources */,
+				D6BBD8822AC2C150007800D8 /* BackOffice_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BBD88D2AC2C1D3007800D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BBD8942AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift in Sources */,
+				D6BBD8962AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D340312AC24EC200A87A73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1040,6 +1169,11 @@
 			isa = PBXTargetDependency;
 			target = D678ACCB2AC2BDDE007D82DB /* BackOffice-ipadOS */;
 			targetProxy = D678ACEA2AC2BDFE007D82DB /* PBXContainerItemProxy */;
+		};
+		D6BBD8982AC2C1D3007800D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BBD87E2AC2C150007800D8 /* BackOffice-watchOS Watch App */;
+			targetProxy = D6BBD8972AC2C1D3007800D8 /* PBXContainerItemProxy */;
 		};
 		D6D3404D2AC24EC400A87A73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1309,6 +1443,104 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 				TEST_TARGET_NAME = "BackOffice-ipadOS";
+			};
+			name = Release;
+		};
+		D6BBD88A2AC2C152007800D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apps/main/Backoffice/frontend/watchOS/Preview Content\"";
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BackOffice-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D6BBD88B2AC2C152007800D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apps/main/Backoffice/frontend/watchOS/Preview Content\"";
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BackOffice-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		D6BBD89A2AC2C1D3007800D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BackOffice-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D6BBD89B2AC2C1D3007800D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BackOffice-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -1699,6 +1931,24 @@
 			buildConfigurations = (
 				D678ACED2AC2BDFF007D82DB /* Debug */,
 				D678ACEE2AC2BDFF007D82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BBD88C2AC2C152007800D8 /* Build configuration list for PBXNativeTarget "BackOffice-watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BBD88A2AC2C152007800D8 /* Debug */,
+				D6BBD88B2AC2C152007800D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BBD8992AC2C1D3007800D8 /* Build configuration list for PBXNativeTarget "BackOffice-watchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BBD89A2AC2C1D3007800D8 /* Debug */,
+				D6BBD89B2AC2C1D3007800D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
