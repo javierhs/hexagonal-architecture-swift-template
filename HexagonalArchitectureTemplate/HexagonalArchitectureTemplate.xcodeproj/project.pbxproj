@@ -16,6 +16,12 @@
 		D6D340502AC24EC400A87A73 /* HexagonalArchitectureTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3404F2AC24EC400A87A73 /* HexagonalArchitectureTemplateTests.swift */; };
 		D6D3409B2AC256A700A87A73 /* HexagonalArchitectureTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340592AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests.swift */; };
 		D6D3409C2AC256AB00A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3405B2AC24EC400A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift */; };
+		D6D340A82AC25DD500A87A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340A72AC25DD500A87A73 /* AppDelegate.swift */; };
+		D6D340AA2AC25DD500A87A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340A92AC25DD500A87A73 /* ViewController.swift */; };
+		D6D340AC2AC25DD600A87A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D340AB2AC25DD600A87A73 /* Assets.xcassets */; };
+		D6D340AF2AC25DD600A87A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D340AD2AC25DD600A87A73 /* Main.storyboard */; };
+		D6D340BB2AC25DE600A87A73 /* BackOffice_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340BA2AC25DE600A87A73 /* BackOffice_macOSUITests.swift */; };
+		D6D340BD2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340BC2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,13 @@
 			remoteGlobalIDString = D6D340342AC24EC200A87A73;
 			remoteInfo = "BackOffice-iOS";
 		};
+		D6D340BE2AC25DE600A87A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D340A42AC25DD500A87A73;
+			remoteInfo = "BackOffice-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +62,15 @@
 		D6D340552AC24EC400A87A73 /* BackOffice-iOS-UI-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-iOS-UI-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340592AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonalArchitectureTemplateUITests.swift; sourceTree = "<group>"; };
 		D6D3405B2AC24EC400A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonalArchitectureTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6D340A52AC25DD500A87A73 /* BackOffice-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D340A72AC25DD500A87A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6D340A92AC25DD500A87A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6D340AB2AC25DD600A87A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6D340AE2AC25DD600A87A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6D340B02AC25DD600A87A73 /* BackOffice_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackOffice_macOS.entitlements; sourceTree = "<group>"; };
+		D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D340BA2AC25DE600A87A73 /* BackOffice_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_macOSUITests.swift; sourceTree = "<group>"; };
+		D6D340BC2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6D340A22AC25DD500A87A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D340B52AC25DE600A87A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +117,6 @@
 			children = (
 				D6D340682AC24EFB00A87A73 /* apps */,
 				D6D340692AC24F0000A87A73 /* src */,
-				D6D340582AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests */,
 				D6D340362AC24EC200A87A73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,15 +127,10 @@
 				D6D340352AC24EC200A87A73 /* BackOffice-iOS.app */,
 				D6D3404B2AC24EC400A87A73 /* HexagonalArchitectureTemplateTests.xctest */,
 				D6D340552AC24EC400A87A73 /* BackOffice-iOS-UI-Tests.xctest */,
+				D6D340A52AC25DD500A87A73 /* BackOffice-macOS.app */,
+				D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D6D340582AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HexagonalArchitectureTemplateUITests;
 			sourceTree = "<group>";
 		};
 		D6D340682AC24EFB00A87A73 /* apps */ = {
@@ -339,6 +369,11 @@
 		D6D340842AC2510D00A87A73 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6D340A72AC25DD500A87A73 /* AppDelegate.swift */,
+				D6D340A92AC25DD500A87A73 /* ViewController.swift */,
+				D6D340AB2AC25DD600A87A73 /* Assets.xcassets */,
+				D6D340AD2AC25DD600A87A73 /* Main.storyboard */,
+				D6D340B02AC25DD600A87A73 /* BackOffice_macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -404,6 +439,8 @@
 		D6D3408C2AC2514900A87A73 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6D340BA2AC25DE600A87A73 /* BackOffice_macOSUITests.swift */,
+				D6D340BC2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -559,6 +596,41 @@
 			productReference = D6D340552AC24EC400A87A73 /* BackOffice-iOS-UI-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D6D340A42AC25DD500A87A73 /* BackOffice-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D340B12AC25DD600A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-macOS" */;
+			buildPhases = (
+				D6D340A12AC25DD500A87A73 /* Sources */,
+				D6D340A22AC25DD500A87A73 /* Frameworks */,
+				D6D340A32AC25DD500A87A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackOffice-macOS";
+			productName = "BackOffice-macOS";
+			productReference = D6D340A52AC25DD500A87A73 /* BackOffice-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D340B72AC25DE600A87A73 /* BackOffice-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D340C02AC25DE600A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-macOSUITests" */;
+			buildPhases = (
+				D6D340B42AC25DE600A87A73 /* Sources */,
+				D6D340B52AC25DE600A87A73 /* Frameworks */,
+				D6D340B62AC25DE600A87A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D340BF2AC25DE600A87A73 /* PBXTargetDependency */,
+			);
+			name = "BackOffice-macOSUITests";
+			productName = "BackOffice-macOSUITests";
+			productReference = D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -580,6 +652,13 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = D6D340342AC24EC200A87A73;
 					};
+					D6D340A42AC25DD500A87A73 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D6D340B72AC25DE600A87A73 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D6D340A42AC25DD500A87A73;
+					};
 				};
 			};
 			buildConfigurationList = D6D340302AC24EC200A87A73 /* Build configuration list for PBXProject "HexagonalArchitectureTemplate" */;
@@ -596,8 +675,10 @@
 			projectRoot = "";
 			targets = (
 				D6D340342AC24EC200A87A73 /* BackOffice-iOS */,
-				D6D3404A2AC24EC400A87A73 /* HexagonalArchitectureTemplateTests */,
 				D6D340542AC24EC400A87A73 /* BackOffice-iOS-UI-Tests */,
+				D6D3404A2AC24EC400A87A73 /* HexagonalArchitectureTemplateTests */,
+				D6D340A42AC25DD500A87A73 /* BackOffice-macOS */,
+				D6D340B72AC25DE600A87A73 /* BackOffice-macOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -621,6 +702,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D6D340532AC24EC400A87A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D340A32AC25DD500A87A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D340AC2AC25DD600A87A73 /* Assets.xcassets in Resources */,
+				D6D340AF2AC25DD600A87A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D340B62AC25DE600A87A73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -657,6 +754,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6D340A12AC25DD500A87A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D340AA2AC25DD500A87A73 /* ViewController.swift in Sources */,
+				D6D340A82AC25DD500A87A73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D340B42AC25DE600A87A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D340BB2AC25DE600A87A73 /* BackOffice_macOSUITests.swift in Sources */,
+				D6D340BD2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -669,6 +784,11 @@
 			isa = PBXTargetDependency;
 			target = D6D340342AC24EC200A87A73 /* BackOffice-iOS */;
 			targetProxy = D6D3409F2AC25AD400A87A73 /* PBXContainerItemProxy */;
+		};
+		D6D340BF2AC25DE600A87A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D340A42AC25DD500A87A73 /* BackOffice-macOS */;
+			targetProxy = D6D340BE2AC25DE600A87A73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -687,6 +807,14 @@
 				D6D340442AC24EC300A87A73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6D340AD2AC25DD600A87A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D340AE2AC25DD600A87A73 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -950,6 +1078,100 @@
 			};
 			name = Release;
 		};
+		D6D340B22AC25DD600A87A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = apps/main/Backoffice/frontend/macOS/BackOffice_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6D340B32AC25DD600A87A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = apps/main/Backoffice/frontend/macOS/BackOffice_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6D340C12AC25DE600A87A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BackOffice-macOS";
+			};
+			name = Debug;
+		};
+		D6D340C22AC25DE600A87A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BackOffice-macOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -985,6 +1207,24 @@
 			buildConfigurations = (
 				D6D340662AC24EC400A87A73 /* Debug */,
 				D6D340672AC24EC400A87A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D340B12AC25DD600A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D340B22AC25DD600A87A73 /* Debug */,
+				D6D340B32AC25DD600A87A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D340C02AC25DE600A87A73 /* Build configuration list for PBXNativeTarget "BackOffice-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D340C12AC25DE600A87A73 /* Debug */,
+				D6D340C22AC25DE600A87A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
