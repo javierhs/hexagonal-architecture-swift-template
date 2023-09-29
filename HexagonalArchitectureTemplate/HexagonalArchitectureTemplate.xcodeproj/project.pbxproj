@@ -93,7 +93,7 @@
 		D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D659B2842AC2C03B0082E34B /* BackOffice_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_tvOSUITests.swift; sourceTree = "<group>"; };
 		D659B2862AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_tvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D66924C42AC6B6B1009276F3 /* BackOffice */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BackOffice; path = ../../../../../Desktop/BackOffice; sourceTree = "<group>"; };
+		D66924C42AC6B6B1009276F3 /* BackOffice */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BackOffice; sourceTree = "<group>"; };
 		D678ACCC2AC2BDDE007D82DB /* BackOffice-ipadOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-ipadOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D678ACCE2AC2BDDE007D82DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D678ACD02AC2BDDE007D82DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
