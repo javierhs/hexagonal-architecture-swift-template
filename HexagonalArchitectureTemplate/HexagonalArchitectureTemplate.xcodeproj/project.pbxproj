@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D635219C2AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D635219D2AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D635219E2AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D635219F2AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A02AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A12AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A22AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A32AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A42AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
-		D63521A52AC2E740001DA794 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635219B2AC2E740001DA794 /* SwiftUIView.swift */; };
 		D659B2702AC2C02E0082E34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B26F2AC2C02E0082E34B /* AppDelegate.swift */; };
 		D659B2722AC2C02E0082E34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659B2712AC2C02E0082E34B /* ViewController.swift */; };
 		D659B2752AC2C02E0082E34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659B2732AC2C02E0082E34B /* Main.storyboard */; };
@@ -101,7 +91,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D635219B2AC2E740001DA794 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		D659B26D2AC2C02E0082E34B /* BackOffice-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D659B26F2AC2C02E0082E34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D659B2712AC2C02E0082E34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -235,14 +224,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D635219A2AC2E71B001DA794 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D635219B2AC2E740001DA794 /* SwiftUIView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 		D6BBD8872AC2C152007800D8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,7 +455,6 @@
 		D6D340802AC250F500A87A73 /* frontend */ = {
 			isa = PBXGroup;
 			children = (
-				D635219A2AC2E71B001DA794 /* Shared */,
 				D6D340852AC2511400A87A73 /* watchOS */,
 				D6D340842AC2510D00A87A73 /* macOS */,
 				D6D340832AC2510700A87A73 /* tvOS */,
@@ -1083,7 +1063,6 @@
 			files = (
 				D659B2722AC2C02E0082E34B /* ViewController.swift in Sources */,
 				D659B2702AC2C02E0082E34B /* AppDelegate.swift in Sources */,
-				D63521A22AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1093,7 +1072,6 @@
 			files = (
 				D659B2852AC2C03B0082E34B /* BackOffice_tvOSUITests.swift in Sources */,
 				D659B2872AC2C03B0082E34B /* BackOffice_tvOSUITestsLaunchTests.swift in Sources */,
-				D63521A32AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1103,7 +1081,6 @@
 			files = (
 				D678ACD32AC2BDDE007D82DB /* ViewController.swift in Sources */,
 				D678ACCF2AC2BDDE007D82DB /* AppDelegate.swift in Sources */,
-				D63521A02AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 				D678ACD12AC2BDDE007D82DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1114,7 +1091,6 @@
 			files = (
 				D678ACE72AC2BDFE007D82DB /* BackOffice_ipadOSUITests.swift in Sources */,
 				D678ACE92AC2BDFE007D82DB /* BackOffice_ipadOSUITestsLaunchTests.swift in Sources */,
-				D63521A12AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1124,7 +1100,6 @@
 			files = (
 				D6BBD8842AC2C150007800D8 /* ContentView.swift in Sources */,
 				D6BBD8822AC2C150007800D8 /* BackOffice_watchOSApp.swift in Sources */,
-				D63521A42AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,7 +1109,6 @@
 			files = (
 				D6BBD8942AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITests.swift in Sources */,
 				D6BBD8962AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
-				D63521A52AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1144,7 +1118,6 @@
 			files = (
 				D6D3403D2AC24EC200A87A73 /* ViewController.swift in Sources */,
 				D6D340392AC24EC200A87A73 /* AppDelegate.swift in Sources */,
-				D635219C2AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 				D6D3403B2AC24EC200A87A73 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1163,7 +1136,6 @@
 			files = (
 				D6D3409B2AC256A700A87A73 /* HexagonalArchitectureTemplateUITests.swift in Sources */,
 				D6D3409C2AC256AB00A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift in Sources */,
-				D635219D2AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1173,7 +1145,6 @@
 			files = (
 				D6D340AA2AC25DD500A87A73 /* ViewController.swift in Sources */,
 				D6D340A82AC25DD500A87A73 /* AppDelegate.swift in Sources */,
-				D635219E2AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,7 +1154,6 @@
 			files = (
 				D6D340BB2AC25DE600A87A73 /* BackOffice_macOSUITests.swift in Sources */,
 				D6D340BD2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift in Sources */,
-				D635219F2AC2E740001DA794 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
