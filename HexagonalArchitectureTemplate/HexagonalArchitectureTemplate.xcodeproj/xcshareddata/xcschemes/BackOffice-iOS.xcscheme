@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D6D340542AC24EC400A87A73"
+               BuildableName = "BackOffice-iOS-UI-Tests.xctest"
+               BlueprintName = "BackOffice-iOS-UI-Tests"
+               ReferencedContainer = "container:HexagonalArchitectureTemplate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
